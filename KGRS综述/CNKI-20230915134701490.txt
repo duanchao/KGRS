@@ -1,0 +1,327 @@
+SrcDatabase-来源库:  期刊
+Title-题名:  结合超图对比学习和关系聚类的知识感知推荐算法
+Author-作者:  王永贵;陈书铭;刘义海;赖贞祥;
+Organ-单位:  辽宁工程技术大学电子与信息工程学院;
+Source-文献来源:  计算机科学与探索
+Keyword-关键词:  推荐系统;;知识图谱;;图卷积网络;;超图;;对比学习;;自监督学习;;知识表示学习
+Summary-摘要:  结合知识图谱的推荐算法通过引入知识图谱，获得项目的辅助信息，从而实现更好的推荐效果。然而推荐的过程中存在：知识图谱中关系长尾分布、用户项目交互数据稀疏和异构信息利用不平衡的问题，针对这些问题，提出了一种结合超图对比学习和关系聚类的知识感知推荐算法。首先通过关系聚类的方式重构知识图谱，缓解了知识图谱中关系的长尾分布问题；其次构建用户－项目－实体异构图，利用一种结合注意力机制的图卷积网络学习用户、项目的异构图嵌入；同时使用一种参数化的超图卷积网络，学习用户、项目的超图嵌入；随后在异构图嵌入和超图嵌入之间进行对比学习，为模型引入自监督信号，缓解数据稀疏性问题；最后将异构图嵌入和超图嵌入相结合，用于后续的推荐预测，进一步缓解了异构信息利用不平衡问题。模型在MovieLens-1M、Book-Crossing和Last.FM三个公开数据集上与CKAN、KGIC、VRKG4Rec等基线模型进行对比实验，实验结果表明在AUC、F1和Recall@K指标上，模型均取得了不同程度的提升。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  基于知识表示增强的类案推荐模型
+Author-作者:  惠欣恒;白雄文;王红艳;安娜;张萌;
+Organ-单位:  中国航天科工集团第二研究院七〇六所;
+Source-文献来源:  计算机工程与设计
+Keyword-关键词:  知识图谱;;图嵌入;;图增广;;子图表示;;注意力机制;;卷积神经网络;;推荐系统
+Summary-摘要:  为解决推荐模型面对长文本推荐任务存在推荐信息获取不准确的问题，提出一种基于知识表示增强的类案推荐模型。在该模型中，将案件案情信息构建为案件知识图谱后进行图谱嵌入学习，缓解知识嵌入中向量稀疏问题。为提升类案推荐结果的准确性和全面性，基于知识图谱和注意力机制增强查询案件和候选案件的语义向量，使用文本卷积神经网络对增强知识向量进行特征提取，使模型具备更深层次的语义理解能力，提升模型对案件知识的表达能力，提高类案推荐模型的准确性。在公开数据集LeCaRD上的实验结果表明，该模型能够有效提升推荐结果的准确性和全面性。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  融合语义特征和知识特征的推荐模型
+Author-作者:  郑光;朱越;时雷;马新明;席磊;
+Organ-单位:  河南农业大学信息与管理科学学院;河南农业大学农田环境监测与控制技术河南省工程实验室;
+Source-文献来源:  计算机工程与设计
+Keyword-关键词:  推荐模型;;知识图谱;;特征融合;;门控循环单元;;注意力机制;;语义特征;;连续词袋
+Summary-摘要:  针对传统推荐模型面临的数据稀疏性问题，提出一种基于结合注意力机制的门控循环单元的融合语义和知识特征的推荐模型。基于知识图谱，使用连续词袋模型捕获项目实体对应的语义特征，依据“偏好扩散”思想进行知识特征的学习，将不同层面特征进行融合后，使用结合注意力机制的门控循环单元挖掘用户潜在兴趣偏好。基于MovieLens数据集的对比实验结果表明，所提模型能够有效提升推荐效果并缓解数据稀疏性问题，通过消融实验验证了该模型各个组件的有效性。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  GNRF:基于关系融合的图神经网络推荐系统
+Author-作者:  杨中金;彭敦陆;宋祎昕;
+Organ-单位:  上海理工大学光电信息与计算机工程学院;国家管网集团浙江省天然气管网有限公司;
+Source-文献来源:  小型微型计算机系统
+Keyword-关键词:  协同过滤;;推荐系统;;用户-物品交互图;;知识图谱
+Summary-摘要:  当前的推荐方法普遍引入知识图谱作为辅助信息来缓解协同过滤算法的缺陷，如数据稀疏和冷启动问题。然而，基于知识图谱的推荐方法大都专注于利用知识图谱来构建用户及物品的特征表示，忽略了对用户交互信息的有效利用。本文在引入用户-物品交互图和知识图谱两种图结构信息基础上，通过图神经网络融合用户-物品间的交互特征、物品间的相似特征以及知识图谱中实体的知识特征，来构建用户物品的特征表示，并将之应用于推荐系统。实验表明，相对于基线模型，本文提出的模型具有较好的推荐效果。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  基于负反馈修正的多轮对话推荐系统
+Author-作者:  朱立玺;黄晓雯;赵梦媛;桑基韬;
+Organ-单位:  北京交通大学计算机与信息技术学院;交通数据分析与挖掘北京市重点实验室(北京交通大学);
+Source-文献来源:  计算机学报
+Keyword-关键词:  对话推荐系统;;强化学习;;交互负反馈;;知识图谱;;协同过滤
+Summary-摘要:  传统的推荐系统从交互历史中挖掘用户兴趣,面临着无法动态地获取用户实时偏好和细粒度偏好的问题,近年对话推荐系统领域的兴起为此问题提供了新的解决方案.对话推荐系统优势在于其可以动态地和用户进行交互,并在交互过程中获取用户的实时偏好,从而提高推荐系统准确率,提升用户体验.然而对话推荐系统相关研究工作中缺乏对负反馈的充分利用,难以对用户偏好表示进行细粒度的修正,即难以有效平衡用户长期偏好和实时偏好之间的关系,同时存在属性候选集过大导致交互轮次过多的问题.因此,本文基于经典的对话推荐框架CPR(Conversational Path Reasoning)提出了一种能够有效利用用户负反馈的对话推荐模型NCPR(Negative-feedback-guide Conversational Path Reasoning).不同于现有的对话推荐系统工作,NCPR能够充分利用用户在交互过程中给出的属性粒度和物品粒度的负反馈对用户的偏好表示进行动态的修正.此外,CPR将对话推荐建模为一个图上的路径推理问题,NCPR使用协同过滤算法基于属性粒度的负反馈对属性候选集进行重排序,在利用图结构的自然优势限制属性候选集大小的同时,进一步减少候选属性空间大小.四个基准数据集上的实验结果表明,NCPR在推荐准确率和平均交互轮次两个评价指标上的表现优于先进的基线模型.最后,我们设计并实现了一个网页端的对话推荐系统,与在线用户进行交互产生推荐结果,证明了NCPR在真实的对话推荐场景下的有效性.
+
+SrcDatabase-来源库:  期刊
+Title-题名:  融合知识传播和提示学习机制的推荐模型
+Author-作者:  黄偲偲;柯文俊;张杭;方志;余增文;汪鹏;王清理;
+Organ-单位:  北京计算机技术及应用研究所;东南大学计算机科学与工程学院;西安电子科技大学计算机科学与技术学院;
+Source-文献来源:  中文信息学报
+Keyword-关键词:  知识图谱;;推荐系统;;提示学习;;预训练语言模型
+Summary-摘要:  将知识图谱中的辅助知识应用于推荐系统中，在一定程度上可以缓解数据稀疏问题。但现有基于知识图谱的推荐方法大多只利用实体间的显式关系建模用户行为，而用户和推荐物品之间可能存在无法显式表达的关系。因此，该文提出了一种融合知识图谱传播特征和提示学习范式的推荐模型。首先，以用户与物品的历史交互为起点，利用知识图谱传播用户偏好，获得用户的动态行为信息；然后，将用户静态属性特征信息作为输入，利用提示学习技术，引入预训练语言模型中的隐式知识，挖掘出用户的潜在兴趣，作为对知识图谱显式知识的补充；最后，根据模板词在预训练语言模型词汇表中的概率完成对用户的推荐。实验表明，该方法在MovieLens-1M、Book-Crossing和Last.FM三个数据集上与其他模型相比具有良好的推荐性能，在AUC评价指标上平均分别提升6.4%、4.0%和3.6%,在F_1评价指标上平均分别提升了6.0%、1.8%和3.2%。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  知识增强的个性化序列推荐算法
+Author-作者:  王猛;汪海涛;贺建峰;陈星;
+Organ-单位:  昆明理工大学信息工程与自动化学院;
+Source-文献来源:  小型微型计算机系统
+Keyword-关键词:  序列推荐;;知识图谱;;注意力机制;;卷积神经网络
+Summary-摘要:  针对现有的序列推荐系统在数据稀疏场景下表现不佳，以及无法充分学习用户的个性化兴趣问题，本文提出一种知识增强的个性化序列推荐算法。使用知识图谱作为辅助信息可以缓解数据稀疏问题，然而现有的融合知识图谱的方法会引入大量与系统无关的信息。为此采用一种关系感知采样方法，仅保留知识图谱中与系统相关性高的交互。在序列建模阶段卷积神经网络可以较好地学习用户的局部动态偏好，然而用户的全局交互特征对用户个性化偏好的表达同样重要，本文通过引入多头自注意力机制对全局交互特征进行学习。最后，设计一个自适应混合模块来动态融合两种特征。在公共数据集MovieLens-1M与Amazon-book上的实验结果证明了所设计模型的有效性。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  结合项目属性协作信号减少无关邻域的推荐
+Author-作者:  赵文涛;薛赛丽;刘甜甜;
+Organ-单位:  河南理工大学计算机科学与技术;
+Source-文献来源:  计算机工程与应用
+Keyword-关键词:  知识图谱;;推荐系统;;项目属性协作信号;;注意力机制
+Summary-摘要:  在推荐系统中，知识图谱(Knowledge Graph，KG)作为辅助信息，提高了算法的性能以及可解释性。但在聚合多跳邻居时，它通常把所有的实体信息加以聚合并传播。KG中不是所有的信息都有助于改善推荐结果，当聚合邻域信息不加以区分时，实体的嵌入就会受到不相关实体的干扰。针对上述问题，提出一个项目属性协作信号和筛选高相关的邻域策略的模型（RUNCS），用以提高推荐的效果。具体来说，首先把点击过相同项目的用户称为相似邻居，再通过相似邻居点击的项目和KG中的项目属性相结合，从而得到项目属性协作集；其次通过计算项目属性的相似性，得到相关性分数，用以筛选高相关的邻居；最后利用注意力机制对其分配权重进行信息聚合。在音乐和电影两个基准数据集中的实验结果表明，与现有最优主流方法相比，该模型在CTR预测上AUC提升0.6%～2.7%。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  路径语义和特征提取相结合的负样本推荐方法
+Author-作者:  马腾;熊熙;李中志;李斌勇;昌燕;
+Organ-单位:  成都信息工程大学网络空间安全学院;先进密码技术与系统安全四川省重点实验室;四川大学空天科学与工程学院;
+Source-文献来源:  小型微型计算机系统
+Keyword-关键词:  知识图谱;;推荐系统;;负样本;;注意力;;强化学习
+Summary-摘要:  随着大数据领域的飞速发展，数据成了当今各行各业宝贵的财富.从海量数据中筛选出合适的内容推送给不同用户，提高用户体验度是推荐系统的主要研究内容.但由于当前的负样本采样方式不足以产生优质的负样本，从而导致系统不能反映用户的真实需求.本文提出一种基于知识图谱的负样本采样算法：首先将TransR与SDAE(堆栈去噪自编码器)结合，从知识图谱的关系中获取编码以充分利用图谱中的信息.再将负采样算法找到的负样本排序，修剪掉得分低的负样本.为了提高搜索性能，在采样器中增加了通道注意力机制.本模型在Amazon-book, Last-FM,Yelp2018共3个数据集上与其它算法进行了比较.实验结果表明：1)在召回率方面，3个数据集上的负样本采样有效性比目前表现最好的DNS高出1.12%,2.12%,2.13%.2)与其它知识图谱推荐算法相比，本文提出的模型NSEP(Negative Sample Extraction combining Path semantics and feature extraction)提高了2.40%、3.41%和3.25%.3)通过对NSEP提出的模块进行消融性实验，发现各模块对算法都有积极贡献.
+
+SrcDatabase-来源库:  期刊
+Title-题名:  建筑领域文档推荐模型设计与实现
+Author-作者:  王彦忠;李逸松;
+Organ-单位:  上海建科工程项目管理有限公司;上海大学计算机工程与科学学院;
+Source-文献来源:  武汉大学学报(理学版)
+Keyword-关键词:  推荐系统;;知识图谱;;联合学习;;可解释性
+Summary-摘要:  在面向建筑领域的文档推荐任务上，为了更好地理解用户偏好，提出了一种多任务学习方法 KGRP(unifying knowledge graph learning and recommendation:for a better user preferences)，它将知识图谱嵌入和文档推荐两个任务联合学习。我们为KGRP设计了一个交叉压缩单元，它能够显式地为文档特征和实体特征之间的高阶交互建模，补充文档和实体的信息，让两个任务共享更多的特征信息。在建筑领域的文档数据集上实验结果显示，KGRP算法推荐性能良好，能够根据用户的交互行为与偏好模型推荐合适的文档。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  基于对抗性训练的动态协同过滤推荐算法
+Author-作者:  黄大巧;朱健军;曹俊卓;
+Organ-单位:  浙江通信服务网络科技分公司;浙江工业大学信息学院;
+Source-文献来源:  软件工程
+Keyword-关键词:  协同过滤推荐;;鲁棒性;;对抗性训练
+Summary-摘要:  为了改进时间事件上的输入扰动或者攻击可能导致系统推荐性能大幅下降的问题，提出一种基于对抗性训练改进模型鲁棒性的协同过滤推荐算法。通过构建微小扰动对推荐模型进行训练，调整改进网络结构参数，从而提高系统的推荐准确度和抗干扰能力。通过在亚马逊数据集上的实验，并与几个基线模型进行不同Top-K推荐目标下的NDCG性能对比，结果表明：经过对抗训练的改进算法提升了系统鲁棒性，并且在中等扰动情况下可减少性能下降15%以上。
+
+SrcDatabase-来源库:  外文期刊
+Title-篇名:  INVESTIGATING DIFFERENT SIMILARITY METRICS USED IN VARIOUS RECOMMENDER SYSTEMS TYPES: SCENARIO CASES
+Author-作者:  Stitini O.;Kaloun S.;Bencharef O.
+Organ-单位:  Computer and System Engineering Laboratory; Cadi Ayyad University; Marrakech 40000; Morocco
+Source-文献来源:  The International Archives of the Photogrammetry; Remote Sensing and Spatial Information Sciences
+Summary-摘要:  A recommendation system represents a very efficient way to propose solutions adapted to customers needs. It allows users to discover interesting items from a large amount of data according to their preferences. To do this, it uses a similarity metric, which determines how similar two users or products are. In the case of recommender systems, similarity computation is a practical step. The calculation of similarity may be used for both items and users. Following the similarity calculation, a user or item with a comparable computation value can be recommended together with the goods to a user with similar preferences. The user’s requirements influence the choice of similarity metric. This paper explores various similarity measurement methods employed in recommender systems. We compare correlation and distance techniques to determine the capabilities of different similitude calculation algorithms and synthesize which similarity measure is adapted for which type of recommendation.
+
+SrcDatabase-来源库:  期刊
+Title-题名:  推荐系统与隐私保护研究综述
+Author-作者:  刘生昊;吴国洋;邓贤君;张雨;鲁宏伟;何媛媛;杨天若;
+Organ-单位:  华中科技大学网络空间安全学院分布式系统安全湖北省重点实验室湖北省大数据安全工程技术研究中心;
+Source-文献来源:  华中科技大学学报(自然科学版)
+Keyword-关键词:  推荐系统;;隐私保护;;数据挖掘;;深度学习;;联邦学习
+Summary-摘要:  推荐系统为了能够给用户提供更好的推荐服务，须要收集大量的用户个人信息，在收集这些信息的同时增加了用户隐私泄露的风险．首先，介绍了推荐系统中的关键技术，包括基于协同关系的实体表示学习和基于图模型的实体表示学习；然后，通过对相关研究的归纳和总结，将推荐系统中的隐私保护问题按照用户敏感信息类型进行分类整理，主要分为对用户私有敏感属性的保护、对用户与物品历史交互信息的保护和对用户提交给推荐系统的信息的保护三类；在此基础上，对匿名化、差分隐私、联邦学习和对抗学习四种关键隐私保护技术进行了总结和分析，并重点梳理了这些技术的实现方法、适用场景和优缺点；最后，分析了考虑隐私保护的推荐算法中存在的问题，并尝试给出了未来可能的研究方向．
+
+SrcDatabase-来源库:  期刊
+Title-题名:  大数据时代基于用户需求的推荐多样性方法研究综述
+Author-作者:  钱玉婷;
+Organ-单位:  桂林理工大学商学院;
+Source-文献来源:  中国商论
+Keyword-关键词:  推荐系统;;推荐多样性;;推荐方法
+Summary-摘要:  现在推荐多样性方法能够在一定程度上满足用户的需求，但大数据时代，仍面临多样性感知差异问题、相关性与多样性平衡问题和多样性性能提升问题。通过从提高推荐多样性所运用的关键理论和技术出发，剖析推荐结果多样化的过程，本文探讨了大数据时代下推荐系统中经典的推荐多样性方法及逻辑思路，并总结出主要提高推荐多样性的方法，且对其性能特点和局限性进行详细分析，最后基于推荐多样性方法面临的挑战进行总结和展望。本文经过梳理后，将推荐多样性方法主要总结为以下四个：基于长尾效应的推荐多样性方法、基于二部图的推荐多样性方法、基于行列式点过程的推荐多样性方法和基于注意力机制的推荐多样性方法。
+
+SrcDatabase-来源库:  外文期刊
+Title-篇名:  E-learning course recommendation based on sentiment analysis using hybrid Elman similarity
+Author-作者:  N. Vedavathi;K.M. Anil Kumar
+Organ-单位:  Computer Science and Engineering; NIE Institute of Technology; Mysuru; Karnataka 570018; India;Computer Science and Engineering; Sri Jayachamarajendra College of Engineering; Mysuru; Karnataka 570006; India
+Source-文献来源:  Knowledge-Based Systems
+Keyword-关键词:  E-learning;Recommendation system;Pre-processing;Feature extraction;Sentimental analysis;Optimization;Classification;Elman Minimal Redundancy Maximum Relevance (EMRMR)
+Summary-摘要:  Online learning is also referred to as E-learning which has gained huge attention and attracted most people during the COVID-19 lockdowns. Due to the excess of online information, users face severe challenges and difficulties realizing the best course that is being competitive in the global market. Therefore, it is necessary to develop an online recommendation system that supports the users in selecting the finest course with E-learning. Thus, the proposed work develops a robust RS model using different approaches. Initially, the pre-processing stage is performed to reduce the presented noise in the website data. Then, the feature extraction stage is done to extract the needed features using Improved TF-IDF, W2V (Word 2 Vector), and Hybrid N-gram. Finally, Elman Minimal Redundancy Maximum Relevance and Enhanced Aquila Optimization (EMRMR_EAO) model is proposed to provide Robust course recommendations. In this work, the ERNN method is used to classify the sentiments based on the similarity measure of the MRMR model. The top course recommendation is afforded depending on the similarity scores like Jaccard similarity, cosine similarity and euclidean similarity. Also, the loss function in the classifier is reduced by optimizing the weight parameters using the EAO approach. The performance analysis shows that the proposed recommendation model obtains improved results in terms of accuracy of 99.98%, recall of 99.81%, precision of 99.65%, and F-measure of 99.95%. The comparative analysis exhibit that the proposed EMRMR_EAO model attains better performance than the other existing works in the literature.
+
+SrcDatabase-来源库:  外文期刊
+Title-篇名:  Deep neural network-based multi-stakeholder recommendation system exploiting multi-criteria ratings for preference learning
+Author-作者:  Shrivastava Rahul;Singh Sisodia Dilip;Kumar Nagwani Naresh
+Organ-单位:  Department of Computer Science and Engineering; National Institute of Technology Raipur; G E Road Raipur; Chhattisgarh 492010; India
+Source-文献来源:  Expert Systems With Applications
+Keyword-关键词:  Deep neural network;Multi-stakeholder recommendation system;Multi-criteria rating;Preference aggregation
+Summary-摘要:  A commercially viable multi-stakeholder recommendation system maximizes the utility gain by learning the personalized preferences of multiple stakeholders, such as consumers and producers. Existing multi-stakeholder studies rely on a consumer-item interaction matrix to evaluate the producers' preferences and utility gain. However, these methods result in a negligible boost in producers' utility, as consumer-item interaction provides only a limited insight into producers' preferences. Instead, an independent producer-item interaction matrix may better represent the needs and interests of producers. The deep neural networks have recently achieved encouraging results in a recommendation by estimating user preferences and learning user-item non-linear features. The multi-stakeholder recommendation system may employ this strength of the deep neural network to combine consumer-producer preferences and generate the optimal estimate of their common interest. Hence this study proposes a deep neural network-based multi-stakeholder recommendation system model for aggregating consumer and producer preferences. Next, a multi-criteria rating-based interaction matrix is proposed to learn the producers' preference over an item. Further, we perform deep neural network-based model training to generate the cumulative preference matrix by learning and aggregating the preferences of consumer and producer stakeholders. This work performs extensive experiments over Movie Lens-100 K and 1 M datasets with numerous activation functions, hidden layer configuration, and optimizers. The prediction accuracy, ranking, and utility gain-based evaluation results validate the success of the proposed model in developing a multi-criteria matrix for producers' and deep neural network-based multi-stakeholder preference aggregation over the baseline models.
+
+SrcDatabase-来源库:  期刊
+Title-题名:  协同过滤算法下公共计算机慕课资源推荐系统
+Author-作者:  马建强;徐太星;
+Organ-单位:  海南大学网络空间安全学院;海南大学计算机科学与技术学院;
+Source-文献来源:  现代电子技术
+Keyword-关键词:  公共计算机;;慕课资源;;推荐系统;;协同过滤算法;;DAGScheduleX调度引擎;;置信度;;冗余信息;;资源评分
+Summary-摘要:  公共计算机慕课资源量较大，易受到冗余信息的干扰，导致学生需求和学习资源难以匹配，推荐误差较大。为此，文中设计了协同过滤算法下公共计算机慕课资源推荐系统。该系统使用DAGScheduleX调度引擎，利用控制台绑定不同类型集群调度推荐资源，在不同用户场景下分解请求源任务。首先通过特征服务平台，将个性化特征信息放入本地磁盘文件中，分析公共计算机慕课资源推荐列表中最大支持度项目集合，计算推荐资源估计参数置信区间，对冗余数据进行分词、去停用词预处理；然后参照用户对资源评分结果搜索最近邻居，通过协同过滤冗余信息获取推荐结果；最后根据利用计算信息相似性得到的评分结果向用户推荐慕课资源。系统测试结果表明，该系统能够提取到78%的公共计算机慕课资源，最大推荐误差为10%，能够为用户提供感兴趣资源。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  基于知识图谱的汇编语言程序设计课程教学方法探索
+Author-作者:  刘莹;张晓红;信俊昌;杨晓春;
+Organ-单位:  东北大学计算机科学与工程学院;
+Source-文献来源:  高教学刊
+Keyword-关键词:  知识图谱;;汇编语言;;教学方法;;知识点;;教学质量
+Summary-摘要:  汇编语言程序设计是高校信息相关专业必修的专业基础课程，在培养学生专业能力方面具有基础性地位和作用。该文根据作者所在教学团队多年的教学经验积累，将知识图谱相关内容应用于教学，从基于知识图谱的知识点梳理、线上线下结合的教学和多维度的实验教学三个方面进行汇编语言程序设计教学方法的探索，给出详尽的教学方案，提升了汇编语言程序设计课程的教学质量，为学生后续硬件课程的学习打下坚实的基础。
+
+SrcDatabase-来源库:  外文期刊
+Title-篇名:  SQUIRREL: A framework for sequential group recommendations through reinforcement learning
+Author-作者:  Stratigi Maria;Pitoura Evaggelia;Stefanidis Kostas
+Organ-单位:  Tampere University; Tampere; Finland;University of Ioannina; Ioannina; Greece
+Source-文献来源:  Information Systems
+Keyword-关键词:  0000;1111;Multi-round recommendations;Group recommendations;Rank aggregations
+Summary-摘要:  Nowadays, sequential recommendations are becoming more prevalent. A user expects the system to remember past interactions and not conduct each recommendation round as a stand-alone process. Additionally, group recommendation systems are more prominent since more and more people are able to form groups for activities. Subsequently, the data that a group recommendation system needs to consider becomes more complicated — historical data and feedback for each user, the items recommended and ultimately selected to and by the group, etc. This makes the selection of a group recommendation algorithm to be even more complex. In this work, we propose the SQUIRREL framework — SeQUentIal Recommendations with ReinforcEment Learning, a model that relies on reinforcement learning techniques to select the most appropriate group recommendation algorithm based on the current state of the group. At each round of recommendations, we calculate the satisfaction of each group member, how relevant each item in the group recommendation list is for each user, and based on this the model selects an action, that is, a recommendation algorithm out of a predefined set that will produce the maximum reward. We present a sample of methods that can be used; however, the model is able to be further configured with additional actions, different definitions of rewards or states. We perform experiments on three real world datasets, 20M MovieLens, GoodReads and Amazon, and show that SQUIRREL is able to outperform all the individual recommendation methods used in the action set, by correctly identifying the recommendation algorithm that maximizes the reward function utilized.
+
+SrcDatabase-来源库:  外文期刊
+Title-篇名:  A unifying and general account of fairness measurement in recommender systems
+Author-作者:  Amigó Enrique;Deldjoo Yashar;Mizzaro Stefano;Bellogín Alejandro
+Organ-单位:  Universidad Nacional de Educación a Distancia (UNED); Madrid; Spain;Polytechnic University of Bari; Bari; Italy;University of Udine; Udine; Italy;Universidad Autónoma de Madrid; Madrid; Spain
+Source-文献来源:  Information Processing and Management
+Keyword-关键词:  Information systems: Specialized information retrieval;Recommender systems;Fairness;Biases;Information theory
+Summary-摘要:  Fairness is fundamental to all information access systems, including recommender systems. However, the landscape of fairness definition and measurement is quite scattered with many competing definitions that are partial and often incompatible. There is much work focusing on specific – and different – notions of fairness and there exist dozens of metrics of fairness in the literature, many of them redundant and most of them incompatible. In contrast, to our knowledge, there is no formal framework that covers all possible variants of fairness and allows developers to choose the most appropriate variant depending on the particular scenario. In this paper, we aim to define a general, flexible, and parameterizable framework that covers a whole range of fairness evaluation possibilities. Instead of modeling the metrics based on an abstract definition of fairness, the distinctive feature of this study compared to the current state of the art is that we start from the metrics applied in the literature to obtain a unified model by generalization. The framework is grounded on a general work hypothesis: interpreting the space of users and items as a probabilistic sample space, two fundamental measures in information theory (Kullback–Leibler Divergence and Mutual Information) can capture the majority of possible scenarios for measuring fairness on recommender system outputs. In addition, earlier research on fairness in recommender systems could be viewed as single-sided, trying to optimize some form of equity across either user groups or provider/procurer groups, without considering the user/item space in conjunction, thereby overlooking/disregarding the interplay between user and item groups. Instead, our framework includes the notion of statistical independence between user and item groups. We finally validate our approach experimentally on both synthetic and real data according to a wide range of state-of-the-art recommendation algorithms and real-world data sets, showing that with our framework we can measure fairness in a general, uniform, and meaningful way.
+
+SrcDatabase-来源库:  外文期刊
+Title-篇名:  Recommendations with residual connections and negative sampling based on knowledge graphs
+Author-作者:  Liu Yuanyuan;Zhong Zhaoqian;Che Chao;Zhu Yongjun
+Organ-单位:  Key Laboratory of Advanced Design and Intelligent Computing Ministry of Education; Dalian University; Dalian; China;Department of Library and Information Science; Yonsei University; Republic of Korea
+Source-文献来源:  Knowledge-Based Systems
+Keyword-关键词:  Recommendation system;Knowledge graph;Graph neural networks;Negative sampling;Residual network;Gated mechanism
+Summary-摘要:  A knowledge graph (KG) contains a large amount of well-structured external triple information that can effectively solve the problems of poor interpretability in collaborative filtering. Recently, recommendation system (RS) models relying on graph neural networks (GNNs) have been widely developed, but the increase of GNN layers inevitably leads to over-smoothing problems. Meanwhile, most of the current KG-based negative sampling strategies randomly collect negative samples from unobserved data to train RS models. However, these strategies are insufficient to generate negative samples reflecting genuine user demands. To overcome these obstacles, we design a model called Knowledge Graph Residual Negative Sampling Recommendation (KGRNS), which utilizes residual connections and pooling operation to alleviate the over-smoothing problem, and generate high-quality negative samples by negative sampling. Specifically, we devise residual connections on each output layer of the GNN and then utilize sum pooling operation to mitigate the effects of the over-smoothing problem on the model. In addition, to generate high-quality negative samples, we create a gated strategy to mix the knowledge of both positive and negative samples to generate synthetic negative samples and then select the virtual negative sample that is closest to the positive ones through a theoretically backed hard negative sample select strategy. We conducted broad experiments on three datasets. The experimental results showed that KGRNS performed considerable enhancements over state-of-the-art methods. Ablation studies validated the effectiveness of each part of the KGRNS.
+
+SrcDatabase-来源库:  期刊
+Title-题名:  基于线性回归的热门股票分析与推荐系统的设计与实现
+Author-作者:  张晓涛;陈磊;
+Organ-单位:  佳都科技集团股份有限公司;汕尾市公安局;
+Source-文献来源:  现代信息科技
+Keyword-关键词:  股票分析;;机器学习;;数据可视化;;Matplotlib
+Summary-摘要:  针对初入股票交易市场和对股票交易市场了解甚少的股民需求，设计与实现了基于线性回归的热门股票分析与推荐系统。以实时股票数据接口为数据源，输入UI模板生成动态视图，对股票交易市场的实时数据进行了显示设计；采用了机器学习的相关技术对股票走向的趋势进行预测，再结合Matplotlib对股票数据进行可视化处理，来解决数据图形化显示的问题；采用网络爬虫获取相关金融网的建议与评价，来展现给用户更加直观的分析内容。
+
+SrcDatabase-来源库:  外文期刊
+Title-篇名:  SHARE: Designing multiple criteria-based personalized research paper recommendation system
+Author-作者:  Chaudhuri Arpita;Sarma Monalisa;Samanta Debasis
+Organ-单位:  Advanced Technology Development Centre; Indian Institute of Technology Kharagpur; Kharagpur 721 302; India;Subir Chowdhury School of Quality and Reliability; Indian Institute of Technology Kharagpur; Kharagpur 721 302; India;Computer Science and Engineering; Indian Institute of Technology Kharagpur; Kharagpur 721 302; India
+Source-文献来源:  Information Sciences
+Keyword-关键词:  Research paper recommendation;Content-based recommendation;User modeling;Multi-criteria analysis;Hybrid ranking;Personalized recommendation
+Summary-摘要:  Extraneous growth of scientific information over the Internet makes the searching task non-trivial and as a consequence researchers are facing difficulties in finding relevant papers from the millions of research papers in digital repositories. The research paper recommendation systems have been advocated to address this problem. The existing research paper recommendation systems lack in exploiting prominent information of papers, such as relevancy with the current time, novelty, scientific contribution, writing complexity of the papers, etc. Further, the existing models emphasize only on user’s preference rather than user’s intention that may change with time. Furthermore, the existing models do not consider a sound ranking strategy to unleash the personalization aspect and relevancy of papers. This work aims to address the existing limitations and proposes a systematic hidden attribute-based recommendation engine (SHARE). SHARE utilizes a feature engineering technique to unfold valuable insights of papers through multiple hidden features. These features are used as a context for users as well as multiple criteria for ranking papers. Additionally, SHARE predicts a user’s intention beyond the user’s preference to capture the dynamic notion of a user. Finally, a novel ranking strategy is proposed to retrieve personalized and the most important papers. SHARE is flexible for recommending both old and new users. In order to evaluate the effectiveness of SHARE both user studies and system evaluations were performed. Experimental results substantiate the efficacy of the proposed approach and are comparable to the existing systems.
+
+SrcDatabase-来源库:  外文期刊
+Title-篇名:  Interpretable click-through rate prediction through distillation of the neural additive factorization model
+Author-作者:  Jose Aljo;Shetty Sujala D.
+Organ-单位:  Birla Institute of Technology & Science-Pilani; Dubai; United Arab Emirates
+Source-文献来源:  Information Sciences
+Keyword-关键词:  Recommender systems;Online advertising;Click-through rate (CTR);Model distillation;Interpretability;Neural additive factorization model
+Summary-摘要:  An accurate estimation of the click-through rate (CTR), that is, the probability of clicking on a recommended advertisement item online, is crucial for advertising agencies to make appropriate suggestions to users and maximise their income. However, the existing CTR prediction techniques exhibit two major limitations in estimating accurate CTRs. First, they lack interpretability as they are unable to justify and explain the outcomes of the models. Irrelevant recommendations of products and services may have severe consequences on the personal and financial safety of a user. Second, the high computational complexity of deep-learning models hinders deployment in real-time recommender systems. Thus, this study proposes an interpretable, accurate, and efficient CTR estimator based on the neural additive factorization model (NAFM). The NAFM leverages the model distillation framework, where it effectively learns from a gated ensemble of existing CTR models. The NAFM provides interpretable insights into features and their interactions with a reduced computational cost. The effectiveness and efficiency of the proposed NAFM was verified by applying it on two public click-through datasets, namely, Criteo and Avazu. Unlike post-hoc explainable models, the NAFM avoids an additional phase of training to generate an interpretable model, and its explanations are truthful to the model.
+
+SrcDatabase-来源库:  外文期刊
+Title-篇名:  Learning From Reviews: The Selection Effect and the Speed of Learning
+Author-作者:  Acemoglu Daron;Makhdoumi Ali;Malekian Azarakhsh;Ozdaglar Asuman
+Organ-单位:  Department of Economics Massachusetts Institute of Technology ;Fuqua School of Business Duke University ;Rotman School of Management University of Toronto ;Department of Electrical Engineering and Computer Science Massachusetts Institute of Technology
+Source-文献来源:  Econometrica
+Keyword-关键词:  Bayesian learning;online reviews;recommendation systems;selection effect;social learning;speed of learning;summary statistics
+Summary-摘要:  This paper develops a model of Bayesian learning from online reviews and investigates the conditions for learning the quality of a product and the speed of learning under different rating systems. A rating system provides information about reviews left by previous customers. observe the ratings of a product and decide whether to purchase and review it. We study learning dynamics under two classes of rating systems: full history, where customers see the full history of reviews, and summary statistics, where the platform reports some summary statistics of past reviews. In both cases, learning dynamics are complicated by a selection effect—the types of users who purchase the good, and thus their overall satisfaction and reviews depend on the information available at the time of purchase. We provide conditions for complete learning and characterize and compare its speed under full history and summary statistics. We also show that providing more information does not always lead to faster learning, but strictly finer rating systems do.
+
+SrcDatabase-来源库:  外文期刊
+Title-篇名:  Enhancing recommender ensemble by estimating input fitness
+Author-作者:  Tao Ye;Wang Can;Liew Alan Wee-Chuang;Binnewies Sebastian
+Organ-单位:  Griffith University; 1 Parklands Dr; Southport QLD 4215; Gold Coast; Queensland; Australia
+Source-文献来源:  Computers and Electrical Engineering
+Keyword-关键词:  Information systems: Top-k retrieval in databases;Recommendation system;Sequential recommendation;Ensemble learning;Neural network
+Summary-摘要:  Recommendation system is designed to tackle the information overload problem. The performance of a single recommendation system can be significantly improved if ensemble methods are used. In some recent works researchers seek ways to leverage past history for enhancing the performance of ensemble methods, The core concept rooted in this strand of research is based on exploiting user meta-data for enriching the input spaces for ensembler, however, in many user-agnostic recommendation scenarios such as ad-hoc searching where the user IDs and meta-data are absent, which makes such meta-data-driven ensembling method infeasible. In this work, we proposed a novel user-agnostic ensembling model Rec4Rec, which learns the representations of base recommenders from the input sequences via attention mechanism, in such a manner, the patterns and characteristics of input sequences are memorized within base recommender representations. The base recommender fitnesses are estimated through computing distance with input sequences and can be readily integrated with outputs of base recommenders for ensemble learning, no user-IDs or meta-data are required here as opposed to other meta-data-driven ensemble approaches. Experiment results show that Rec4Rec significantly outperforms the stacking ensembler. The embedding visualization proves that the proposed ensemble method can effectively distinguish the base recommenders. The superior performance of Rec4Rec demonstrates the importance of building representations for base recommenders of an ensemble in ad-hoc inquiries.
+
+SrcDatabase-来源库:  期刊
+Title-题名:  个性化推荐、公共性贬损与数字新闻市场反垄断
+Author-作者:  喻玲;
+Organ-单位:  江西财经大学法学院;
+Source-文献来源:  法学
+Keyword-关键词:  新闻个性化推荐;;注意力市场;;新闻公共性;;新闻市场反垄断
+Summary-摘要:  新闻具有市场与意识形态的双重属性，新闻市场反垄断的特殊性是以新闻公共性为构造基础的。当个性化推荐成为数字新闻分发的主要方式时，传统新闻业中以质量竞争为主的竞争模式、以广告直接补贴为主的商业模式便难以维系，而以流量为导向的生产方式带来了同质化的新闻传播，使新闻公共性备受贬损。个性化新闻推荐背负了技术垄断文化之名，受到了各方的批判。数字新闻市场的反垄断要保持其时代适应性，需先建构一个更加面向新闻公共性修复与提升的社会性规制体系，进而以此为基础来完成“管制与反垄断法并用”的二元规制理念的更新，并以管制为手段来保障公共新闻的供给，以竞争来促进新闻质量的提升，同时对一些相关法律制度进行必要的供给与调整。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  新书推荐:《肌骨系统疑难病例:影像诊断与鉴别诊断》
+Organ-单位:  中国医学影像技术
+Source-文献来源:  中国医学影像技术
+Keyword-关键词:  影像诊断;鉴别诊断;《肌骨系统疑难病例:影像诊断与鉴别诊断》;疑难病例;新书推荐;
+Summary-摘要:  <正>本书由武警浙江总队医院放射科张联合主任医师组织翻译。全书共7章,按照部位分别论述了肌肉骨骼系统疑难病例的影像诊断思路。本书内容全面,图文并茂,配有千余幅高清图像,可以指导读者如何阅片和进行分析、诊断及鉴别诊断,有助于将复杂疑难病例化繁为简,达到快速、准确诊断的目的。天津科技翻译出版有限公司印刷,大16开,铜版纸,精装,定价180元。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  信任视角下消费者购物推荐采纳意愿影响机制——基于“小红书”测评帖的扎根研究
+Author-作者:  张均佳;
+Organ-单位:  杭州市下城区新航道专修学校;
+Source-文献来源:  中国市场
+Keyword-关键词:  信任理论;;消费者购物;;推荐采纳意愿;;小红书
+Summary-摘要:  文章基于信任理论建立了消费者对网络推荐采纳意愿的影响机制。以小红书测评帖为案例，研究发现：内容的丰富程度和帖子的语言风格会影响消费者的认知信任；品牌的知名程度和发帖人的身份会影响消费者的情感信任；消费者的认知信任和情感信任会影响他们的采纳意愿。本研究剖析了消费者的购物推荐采纳意愿，有助于推进网络购物社区的良好发展。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  基于深度神经网络的智能交互式学习系统
+Author-作者:  王欣;雷珺;李小欢;汤成;
+Organ-单位:  中移(杭州)信息技术有限公司;
+Source-文献来源:  电子设计工程
+Keyword-关键词:  深度神经网络;;用户画像;;微服务;;智能交互式学习系统
+Summary-摘要:  现有知识学习系统是基于周期性更新的问题数据库，因而存在规则单一、缺乏面向用户精准画像等问题，无法解决学习长期化、知识持续化、反馈系统化的大规模应用问题。该文采用一种基于深度神经网络的知识学习反馈方法，结合用户在线学习历史数据和不断增长的周期性题库训练得到知识问题推荐模型，实现用户精准画像。通过微服务技术搭建“云”+“端”融合的基于深度神经网络的智能交互式学习系统，上线服务后，用户知识学习评测分数平均提升了15分，学习参与率提升了30%。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  结合用户视角的知识图注意力网络推荐算法
+Author-作者:  张潇;刘渊;
+Organ-单位:  江南大学人工智能与计算机学院;江苏省媒体设计与软件技术重点实验室;
+Source-文献来源:  计算机工程与应用
+Keyword-关键词:  知识图谱;;图神经网络;;推荐算法;;注意力机制
+Summary-摘要:  目前基于知识图谱的推荐方法大多仅仅关注于如何用知识图谱中的信息丰富项目的嵌入表示，而忽略了从用户视角出发，更细粒度地挖掘用户-项目交互的协同信息，将用户-项目图中的协同信息与知识图谱中的辅助信息充分结合。针对上述问题，提出了一种结合用户视角的知识图注意力网络推荐算法。在项目端，结合知识感知的注意力嵌入传播，捕获图中的高阶信息；在用户端，建模用户视角因子细化用户-项目图中的协同信息，在知识图谱中沿着关系依赖的路径聚合，进一步丰富了用户和项目的表示，进而预测用户对项目的点击概率分数。在Last.FM和MovieLens-20M公开数据集上的实验表明，与目前主流基线相比，该模型在Recall@K指标上提升了13%～22%，在AUC和F1指标上提升了0.6%～4.5%。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  知识增强的图神经网络序列推荐模型
+Author-作者:  李盼;解庆;李琳;刘永坚;
+Organ-单位:  武汉理工大学计算机与人工智能学院;武汉理工大学重庆研究院;
+Source-文献来源:  计算机工程
+Keyword-关键词:  序列推荐;;图神经网络;;知识图谱;;推荐系统;;用户行为;;深度学习
+Summary-摘要:  现有基于图神经网络的序列推荐模型大多仅关注用户与项目交互的结构性信息，序列偏好的学习仅涉及项目交互顺序，缺乏项目自身的内容信息，并且未有效利用用户信息及挖掘项目之间更深层的语义关系。提出一种知识增强的图神经网络序列推荐模型KGGNN，引入知识图谱，并结合用户交互数据构建协同知识图谱，学习得到项目语义关联辅助信息以及用户关联辅助信息。将交互序列构建成有向序列图，利用门控图神经网络以及用户关联辅助信息学习序列中项目节点的结构性信息。通过注意力机制组合项目向量作为全局序列偏好，将最近交互的项目作为当前兴趣偏好，融合两者形成最终序列偏好，并结合项目语义关联辅助信息进行模型预测。在Amazon-Book、Last-FM、Yelp2018这3个公开数据集上的实验结果表明，辅助信息能有效提升序列推荐的准确性，该模型在命中率（HIT@K）和归一化折损累计增益（NDCG@K）2个指标上相较于GRU4Rec、NARM、SASRec等模型均有显著提升。当评估指标K值选取10时，与KGSR模型相比，其HIT@10指标在3个数据集上分别提升12.9%、4.5%、6.9%,NDCG@10指标在3个数据集上分别提升29.4%、5.7%、16.7%。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  知识水波图卷积网络推荐模型
+Author-作者:  崔焕庆;宋玮情;杨峻铸;
+Organ-单位:  山东科技大学计算机科学与工程学院;浪潮集团有限公司高效能服务器和存储技术国家重点实验室;
+Source-文献来源:  计算机科学与探索
+Keyword-关键词:  推荐系统;;知识图谱;;偏好传播;;图卷积网络(GCN)
+Summary-摘要:  为了解决基于知识图谱的推荐系统中常见的高阶建模难和用户特征建模不充分问题，提出了以端到端的方法获取知识图谱中高阶语义信息的知识水波图卷积网络（KRGCN）。模型分为用户特征学习和项目特征学习两部分，其中用户特征学习基于用户历史交互记录，利用偏好传播和交叉压缩单元进行嵌入传播来获得用户特征表示；项目特征学习是在项目知识图谱上利用图卷积网络聚合每一项目的高阶邻域信息，使用偏差区分项目邻域的重要性来获得项目特征表示。最后，利用用户特征表示和项目特征表示计算预测值，利用向量之间的内积操作计算用户与项目的交互概率。在两个公开数据集上，使用五个基线方法进行了对比实验。在Book-Crossing数据集上，KRGCN的AUC、ACC和F1值分别提升了4.43%～11.96%、1.68%～10.82%和1.90%～12.78%；在Last.FM数据集上，KRGCN的AUC、ACC和F1值分别提升了2.94%～16.84%、2.36%～16.59%和0.83%～17.69%。实验结果表明，KRGCN能够同时实现用户和项目的高阶建模，与其他代表性的模型相比有良好的推荐效果。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  基于电影属性和交互信息的电影推荐算法
+Author-作者:  顾亦然;张远之;杨海根;
+Organ-单位:  南京邮电大学自动化学院、人工智能学院;南京邮电大学智慧校园研究中心;南京邮电大学宽带无线通信技术教育部工程研究中心;
+Source-文献来源:  南京理工大学学报
+Keyword-关键词:  电影属性;;知识图谱;;协同过滤;;推荐系统;;准确率;;兴趣偏好
+Summary-摘要:  为了缓解电影推荐系统准确率低、可解释性差和数据稀疏等问题，该文同时考虑电影属性信息和用户与电影的交互信息，融合知识图谱和协同过滤算法提出了基于电影属性和交互信息的电影推荐算法，简称为RippleNet协同过滤(RippleNet collaborative filtering, RippleNet-CF)。该模型一方面利用电影与电影属性之间的相互关系构建电影知识图谱，提取电影与电影之间的关系，通过RippleNet模型计算用户偏好。另一方面使用电影和用户间的交互信息，通过协同过滤算法计算出用户偏好。最后结合上述2个方面得出推荐列表，并根据推荐列表进行Top-K推荐。试验结果表明，该文提出的方法在推荐效果的准确率方面有显著提升，同时具有更好的解释性并缓解了数据稀疏问题。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  基于极化关系表述与低维数据间关联学习的推荐模型
+Author-作者:  蔡晓东;洪涛;曹艺;
+Organ-单位:  桂林电子科技大学信息与通信学院;
+Source-文献来源:  华南理工大学学报(自然科学版)
+Keyword-关键词:  推荐系统;;表述学习;;知识图谱;;数据挖掘;;极化关系表述
+Summary-摘要:  传统基于知识图谱的推荐模型一般采用TransH策略来表达图谱中节点间关系,同时利用基于特征机的交互方式进行推荐学习。该类方法对于节点间的关系表述不够准确,同时往往忽略了节点间低维数据所隐藏的关系。为提升推荐准确率,本研究提出了一种基于极化关系表述的新方法,将节点间的表述映射到酉空间,丰富了节点间关系表述的有效信息;此外,设计了一种对知识图谱嵌入和推荐过程低维数据进行关联学习的方法,深入挖掘其所隐藏的丰富与细致关系,从而提升了推荐的准确率。实验证明,本研究所提方法是有效的,与基于知识图谱表述学习的推荐方法领域前沿研究相比,其在Amazon-book、Last-FM数据集上的召回率和归一化折损累计增益有明显的提升。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  基于联合复杂网络Cn-RippleNet模型的推荐方法
+Author-作者:  罗宇泰;徐涛;徐章博;
+Organ-单位:  西北民族大学中国民族语言文字信息技术教育部重点实验室;
+Source-文献来源:  西北工业大学学报
+Keyword-关键词:  知识图谱;;推荐系统;;复杂网络;;节点影响力;;RippleNet
+Summary-摘要:  RippleNet对用户偏好传播进行建模,并运用在推荐系统中,取得了良好的效果,但RippleNet没有考虑知识图谱中的实体权重,导致推荐的实体不够精确。提出了一种加入复杂网络节点影响力的Cn-RippleNet模型,在构建基于知识图谱的复杂网络之后,抽取其最大子网模型,计算图谱网络中节点影响力,并将其作为实体的权重添加至图谱实体中,最终计算出推荐结果。实验结果表明,该方法将RippleNet的AUC和ACC的值提高到了93.0%和85.6%,弥补了RippleNet没有考虑图谱实体影响力的问题,使推荐结果更符合用户预期。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  融合重要性采样和池化聚合的知识图推荐算法
+Author-作者:  梁顺攀;涂浩;王荣生;原福永;张熙瑞;
+Organ-单位:  燕山大学信息科学与工程学院;河北省软件工程重点实验室(燕山大学);
+Source-文献来源:  小型微型计算机系统
+Keyword-关键词:  知识图谱;;邻域采样;;邻域聚合;;推荐系统;;图神经网络
+Summary-摘要:  现有的知识图推荐模型通过聚合相邻实体节点的特征和结构信息来更新当前位置实体节点的嵌入表示,为了控制计算成本和维护模型的稳定性,通常使用随机的固定大小的采样邻域来替代完整的知识图.然而,这些方法存在两个问题:首先,随机选择的邻域限制了知识图用于辅助推荐的效果和稳定性.此外,多数模型只是对所采样邻居节点特征进行均值聚合,这种聚合方法没有充分挖掘所采样邻居节点对于目标节点影响的差异性.针对以上问题,本文提出了基于关系紧密度的重要性采样方法,通过计算关系紧密度选择对目标节点更重要的邻域,以及基于池化操作的聚合方法,通过引入池化层训练得到不同邻居节点对目标节点的差异化权值.在结合本文提出的两种方法后,本文提出基于图神经网络的知识图推荐算法KGCN-PL.最后,本文评估了所改进模型在5个真实世界数据集上的性能,与近几年提出的基于知识图的推荐算法进行对比,在AUC,召回率指标上均取得提升.
+
+SrcDatabase-来源库:  期刊
+Title-题名:  融合多信息的个性化推荐模型
+Author-作者:  沈杰;乔少杰;韩楠;元昌安;许源平;覃晓;王珏岚;
+Organ-单位:  成都信息工程大学;软件自动生成与智能服务四川省重点实验室;广西教育学院;南宁师范大学;四川省医学科学院·四川省人民医院电子科技大学附属医院;
+Source-文献来源:  重庆理工大学学报(自然科学)
+Keyword-关键词:  推荐系统;;知识图谱;;深度学习;;动态融合;;随机梯度下降
+Summary-摘要:  为了解决协同过滤推荐系统的数据稀疏与冷启动问题,通常利用辅助信息来提高推荐系统的整体性能。当前大多数社交媒体网站和电子商务系统都允许用户发表文本评论,以及对项目(如商户、电影、商品等)进行评分。为了更加有效地融合多种数据信息,解决数据稀疏的问题,提高推荐算法的准确性,构建了一个基于用户-项目历史交互数据源融合知识图谱的模型,提出了基于用户-项目历史评论的深度学习算法,将2种算法动态融合,利用随机梯度下降方法进行模型求解,为用户提供更精准的个性化推荐服务。实验结果表明:相比于已有典型推荐算法,所提模型取得更好的推荐效果,并且可以有效地解决数据稀疏带来的推荐准确性降低的问题。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  一种基于KCNN和MKR的两阶段深度学习多任务推荐模型
+Author-作者:  朱瑞;张俊三;朱杰;张世栋;
+Organ-单位:  中国石油大学(华东)计算机科学与技术学院;中央司法警官学院信息管理系;国网山东省电力公司电力科学研究院;
+Source-文献来源:  陕西师范大学学报(自然科学版)
+Keyword-关键词:  深度学习;;推荐系统;;知识图谱;;多任务
+Summary-摘要:  深度学习和知识图谱的结合在推荐领域受到广泛关注,然而部分模型输入向量较为稀疏,不仅增加了整个模型的训练难度,还容易导致模型陷入局部最优;此外,大多推荐模型并未充分挖掘用户和物品的特征交互,使得用户和物品的向量表示不准确,影响最终的推荐模型性能。基于此,本文提出一种基于KCNN和MKR的两阶段深度学习多任务推荐模型TMR。首先,利用文本卷积网络,提取物品名称的特征,将其转化为稠密向量,再结合物品自身属性,作为物品特征向量的初始化表示;其次,采用交替训练的方式,获取知识图谱中的辅助信息,再以DeepFM为特征提取层,挖掘用户(user)和物品(item)的特征交互。实验结果表明:与当前主流推荐方法相比,TMR模型在准确度等评价指标上有很好的表现,提高了推荐系统的性能。
+
+SrcDatabase-来源库:  期刊
+Title-题名:  中药熏洗配合钢板内固定治疗陈旧性桡骨远端骨折24例
+Author-作者:  段超;彭锐;陈思娜;刑丹谋;
+Organ-单位:  湖北中医药大学;华中师范大学;武汉市普爱医院手外一科;
+Source-文献来源:  中国中医骨伤科杂志
+Keyword-关键词:  中药熏洗方;;钢板内固定;;陈旧性桡骨远端骨折
+Summary-摘要:  <正>桡骨远端骨折是临床上最常见的骨折之一,常以保守治疗为主[1],但常因医生对发病机理的认识不足及治疗方法不当(如复位不良)或因患者失治等原因,造成陈旧性骨折,导致腕关节功能欠佳,影响患者日常生活、工作。武汉市普爱医院手外一科于2012年3月-2013年11月,采用切开复位钢板内固定的方法治疗陈旧性桡骨远端骨折,最大程度恢复腕关节的正常解剖关系,拆线后再将病人随机分为观察组与对照组,
+
+SrcDatabase-来源库:  期刊
+Title-题名:  针灸缓解运动性疲劳的研究进展
+Author-作者:  陈思娜;齐家玉;彭锐;段超;
+Organ-单位:  华中师范大学;湖北中医药大学;
+Source-文献来源:  湖北中医药大学学报
+Keyword-关键词:  运动性疲劳;;针灸;;竞技体育
+Summary-摘要:  运动性疲劳是当今体育发展研究的热点议题之一,而针灸缓解运动性疲劳具有独特优势。本文对1978年来有关针灸缓解运动性疲劳的44篇核心期刊文献进行归纳、整理,总结目前针灸缓解运动性疲劳的现状与不足,并提出发展策略。
+
+

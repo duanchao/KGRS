@@ -1,0 +1,17 @@
+# dataset of paper: Hierarchical Reinforcement Learning for Course Recommendation in MOOCs
+## Dataset
+We collect the dataset from XuetangX——one of the largest MOOCs in China and the dataset is available. (data.csv)
+
+## Dataset description
+
+stu_id: student id.
+time: the first time that the student enrolled the corresponding course.
+course_index: the course id.
+name: the name of the course.
+type: the type of the course
+type_id: the type id.
+
+Update: October 13, 2018
+
+
+# The Data Folder contains the processed train, test, negative data.

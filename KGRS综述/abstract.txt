@@ -1,0 +1,15 @@
+Graph neural network (GNN) is considered as the state-of-art method for KG-based recommendation. However,
+the existing GNN-based recommendation methods incorporating KG information fail to fully consider interactions between nodes in the process of message passing and aggregating, which will affect the performance
+improvement of recommendation. To resolve the above limitation, we propose a Feature Interactive Graph
+Neural Network for KG-based Recommendation (FIKGRec) to explicitly model sophisticated feature interactions
+from the complex structure of heterogeneous knowledge graph. The overall framework consists of three
+components: (1) For items, we construct item-KGs where the nodes (entities) denote items and items’ features,
+and edges represent the relations between entities. Modeling feature interaction can be thus transformed into
+modeling node (entity) interaction on the knowledge graph. Specifically, we integrate the collaborative signals
+into the process of KG signals propagation to capture more precise user preferences and then employ the feature
+entity interaction layer to incorporate the interaction information between entities in the process of neighbor
+aggregation of entities in item-KG. (2) For users, a preference-aware attention mechanism is designed to obtain
+the user’s fine-grained preference for items that have been interacted. (3) The final representations of users
+and items are fed to deep neural network (DNN) to model complex correlations between them. Extensive
+experiments on three real-world datasets demonstrate the better performance of our FIKGRec framework
+compared to state-of-the-arts methods.
