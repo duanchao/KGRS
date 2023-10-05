@@ -1,0 +1,19 @@
+会议  
+KDD  
+SIGIR  
+WWW  
+ICDM  
+CIKM  
+IJCAI  
+RecSys 
+
+期刊  
+Knowledge-Based Systems   
+Information Sciences  
+Neurocomputing
+Information Fusion 
+Applied Soft Computing
+
+国内 
+计算机学报  
+软件学报
